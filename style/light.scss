@@ -1,4 +1,7 @@
 
+$primary:       #27c !default;
+$body-color:    black !default;
 
+@import "./pre";
 @import "../node_modules/bootstrap/scss/bootstrap";
-@import "shared";
+@import "./post";

@@ -11,8 +11,8 @@ $gray-100: #f8f9fa !default;
 $gray-200: #ebebeb !default;
 $gray-300: #dee2e6 !default;
 $gray-400: #ced4da !default;
-$gray-500: #adb5bd !default;
-$gray-600: #999 !default;
+$gray-500: #999 !default;
+$gray-600: #666 !default;
 $gray-700: #444 !default;
 $gray-800: #303030 !default;
 $gray-900: #222 !default;
@@ -51,11 +51,6 @@ $body-color:                $white !default;
 $link-color:                $blue !default;
 $link-hover-color:          $bluel !default;
 
-// Fonts
-
-$font-family-sans-serif:      "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
-
-
 // Tables
 
 $table-accent-bg:             $gray-800 !default;
@@ -78,9 +73,9 @@ $input-group-addon-bg:                  $gray-700 !default;
 
 // Dropdowns
 
-$dropdown-bg:                       $gray-900 !default;
-$dropdown-border-color:             $gray-700 !default;
-$dropdown-divider-bg:               $gray-700 !default;
+$dropdown-bg:                       $gray-800 !default;
+$dropdown-border-color:             $gray-600 !default;
+$dropdown-divider-bg:               $gray-600 !default;
 
 $dropdown-link-color:               $white !default;
 $dropdown-link-hover-color:         $white !default;
@@ -90,10 +85,12 @@ $dropdown-link-hover-bg:            $primary !default;
 
 $nav-link-disabled-color:           $gray-200 !default;
 
-$nav-tabs-border-color:             $gray-700 !default;
+$nav-tabs-border-color:             $gray-600 $gray-600 $gray-800 !default;
+
 $nav-tabs-link-hover-border-color:  $nav-tabs-border-color !default;
 $nav-tabs-link-active-border-color: $nav-tabs-border-color !default;
-
+$nav-tabs-link-active-color:        $body-color !default;
+$nav-tabs-link-active-bg:           $gray-800 !default;
 // Navbar
 
 $navbar-dark-color:                 $white !default;
@@ -128,8 +125,9 @@ $jumbotron-bg:                      $gray-800 !default;
 
 // Cards
 
-$card-cap-bg:                       rgba($gray-600,.1) !default;
+$card-cap-bg:                       rgba($gray-500,.125) !default;
 $card-bg:                           $gray-800 !default;
+$card-border-color:                 rgba($white, 0.125) !default;
 
 // Popovers
 
@@ -168,6 +166,10 @@ $close-text-shadow:                 none !default;
 
 $pre-color:                         inherit !default;
 
-
+@import "./pre";
 @import "../node_modules/bootstrap/scss/bootstrap";
-@import "shared";
+@import "./post";
+
+.panel {
+  border: none;
+}
