@@ -1,5 +1,5 @@
 {
-  "extends": "tslint:latest",
+  "extends": ["tslint:latest", "tslint-react"],
   "rules": {
     "no-unnecessary-type-assertion-2": true,
     "array-type": [
@@ -138,12 +138,7 @@
       true,
       "consistent"
     ],
-    "variable-name": [
-      true,
-      "ban-keywords",
-      "check-format",
-      "allow-leading-underscore"
-    ],
+    "variable-name": false,
     "arrow-parens": false,
     "arrow-return-shorthand": false,
     "forin": false,
@@ -176,6 +171,7 @@
     "no-namespace": false,
     "no-reference": false,
     "object-literal-sort-keys": false,
-    "one-variable-per-declaration": false
+    "one-variable-per-declaration": false,
+    "jsx-self-close": false
   }
 }

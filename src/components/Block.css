@@ -1,0 +1,32 @@
+.tclo-block {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: #fff;
+  border-radius: 0px 16px 0px;
+  border: 1px solid #ccc;
+  position: absolute;
+  transition: all .2s;
+}
+
+.tclo-block-head {
+  border-bottom: 1px solid #ccc;
+  height: 24px;
+}
+
+.tclo-block-body {
+  width: 100%;
+}
+.tclo-block-row {
+  border-bottom: 1px solid #ddd;
+  height: 24px;
+}
+
+.tclo-block-row:last-child {
+  border-bottom: 1px solid #ccc;
+}
+
+.tclo-block-foot {
+  height: 23px;
+}

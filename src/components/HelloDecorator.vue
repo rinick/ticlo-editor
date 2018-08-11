@@ -11,7 +11,7 @@
                 text-variant="white"
                 header="Primary"
                 class="text-center">
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="card-text">进行1个半小时下面来到了“微软教你编代码环节”。微软推出Visual Studio的Live Share功能。它可以将你的代码共享给他人一起编程调Bug。Windows和Mac通用，并且这项功能是免费的，将于今日正式上线</p>
         </b-card>
         <b-card bg-variant="secondary"
                 text-variant="white"

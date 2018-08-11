@@ -1,11 +1,16 @@
 {
     "compilerOptions": {
         "outDir": "./built/",
+        "jsx": "react",
         "sourceMap": true,
         "strict": true,
         "module": "es6",
         "moduleResolution": "node",
-        "target": "es6",
+        "target": "es2018",
+        "lib": [
+            "dom",
+            "es2018"
+        ],
         "experimentalDecorators": true
     },
     "include": [
