@@ -7,3 +7,10 @@ ReactDOM.render(
   <App />,
   document.getElementById('app')
 );
+
+// Promise.all([import('react'), import('react-dom'), import('antd'), import('./App')]).then(([React, ReactDOM, Antd, App]) => {
+//   ReactDOM.render(
+//     <App />,
+//     document.getElementById('app')
+//   );
+// });

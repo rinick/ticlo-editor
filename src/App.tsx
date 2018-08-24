@@ -21,9 +21,23 @@ export const App = () => {
         </div>
         <div style={{width: '100%', height: '100%', position: 'relative'}}>
           <div className='tclo-block' style={{top: 50, left: 50, width: 150}} >
-            <div className='tclo-block-head' />
+            <div className='tclo-block-head' ><div className="fab fa-android tclo-icon" />Android</div>
             <div className='tclo-block-body' >
+              <div className='tclo-block-row' ><div className='tclo-input-arrow' />Board</div>
+              <div className='tclo-block-row' >
+                <div className='tclo-input-arrow' />
+                <div className='tclo-output-arrow' />
+              </div>
+              <div className='tclo-block-row' >  <div className='tclo-output-arrow' /></div>
               <div className='tclo-block-row' />
+            </div>
+            <div className='tclo-block-foot' />
+          </div>
+
+          <div className='tclo-block tclo-block-selected' style={{top: 250, left: 150, width: 150}} >
+            <div className='tclo-block-head' ><div className="fab fa-slack-hash tclo-icon" />Slack</div>
+            <div className='tclo-block-body' >
+              <div className='tclo-block-row' >Board</div>
               <div className='tclo-block-row' />
               <div className='tclo-block-row' />
               <div className='tclo-block-row' />
